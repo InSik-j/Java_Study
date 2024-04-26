@@ -17,4 +17,7 @@ public class AnimalPolyMain3 {
         animal.sound();
         System.out.println("동물 소리 테스트 종료");
     }
+
+    // 메서드 생성 단축키 : 실행 문장 선택 + ctrl + alt + M
+    // iter : 향상된 for 문 생성
 }
