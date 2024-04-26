@@ -1,5 +1,6 @@
 package poly.ex1;
 
+// 다형성 활용 전
 public class AnimalSoundMain {
     public static void main(String[] args) {
         Dog dog = new Dog();
