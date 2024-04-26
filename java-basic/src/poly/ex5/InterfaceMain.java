@@ -3,7 +3,7 @@ package poly.ex5;
 public class InterfaceMain {
     public static void main(String[] args) {
         //인터페이스 생성 불가
-        //InterfaceAnimal animal = new AbstractAnimal();
+        //InterfaceAnimal animal = new InterfaceAnimal();
 
         Dog dog = new Dog();
         Cat cat = new Cat();
