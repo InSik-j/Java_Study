@@ -1,0 +1,13 @@
+* 뤼튼에서 출력한 문제
+
+문제4 : 결제 처리 시스템
+    1.	결제(Payment) 클래스 생성
+        •	Payment는 모든 결제 방식의 상위 클래스입니다.
+        •	processPayment() 메소드는 추상 메소드로, 결제를 처리하는 방법을 출력합니다.
+    2.	서브클래스 생성
+        •	CreditCard, PayPal, BankTransfer 세 가지 서브클래스를 생성합니다.
+        •	각 클래스는 Payment를 상속받고 processPayment() 메소드를 오버라이드하여,
+            각 결제 방식에 맞는 처리 메시지를 출력합니다.
+    3.	결제 시스템(PaymentSystem) 클래스
+        •	main 메소드에서 Payment 타입의 리스트를 생성하고, 각기 다른 결제 방식의 인스턴스로 채웁니다.
+        •	리스트를 순회하면서 각 결제 방식의 processPayment() 메소드를 호출합니다.
