@@ -1,0 +1,4 @@
+문제 7 : 플러그인 시스템 구현
+•	Plugin이라는 인터페이스를 만들고, 이 인터페이스에는 activate()와 deactivate()라는 두 메소드를 정의합니다.
+•	ThemePlugin, SEOPlugin, SocialMediaPlugin 세 개의 클래스를 만들고, Plugin 인터페이스를 구현합니다. 각 플러그인의 활성화와 비활성화 기능을 구현합니다.
+•	Website 클래스에서 Plugin 타입의 리스트를 만들어 다양한 플러그인 인스턴스를 저장하고, 각 플러그인의 활성화 및 비활성화 기능을 실행해 봅니다.
