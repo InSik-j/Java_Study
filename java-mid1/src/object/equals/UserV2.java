@@ -1,14 +1,26 @@
 package object.equals;
 
+import java.util.Objects;
+
+// 구현
 public class UserV2 {
     private String id;
     public UserV2(String id) {
         this.id = id;
     }
 
+//    @Override
+//    public boolean equals(Object obj) {
+//        UserV2 user = (UserV2) obj;
+//        return this.id.equals(user.id);
+//    }
+
+//변경 - 정확한 equals 구현, IDE 자동 생성
     @Override
-    public boolean equals(Object obj) {
-        UserV2 user = (UserV2) obj;
-        return this.id.equals(user.id);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        UserV2 userV2 = (UserV2) o;
+        return Objects.equals(id, userV2.id);
     }
 }
