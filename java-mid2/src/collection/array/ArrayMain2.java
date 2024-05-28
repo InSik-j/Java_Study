@@ -24,6 +24,7 @@ public class ArrayMain2 {
         int index = 2;
         int value = 4;
         addAtIndex(arr, index, value);
+        System.out.println(Arrays.toString(arr));
 
         System.out.println("배열의 마지막 위치에 5 추가 O(1)");
         addLast(arr, 5);
