@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class HashStart3 {
     public static void main(String[] args) {
-        // 입력 : //{1, 2, 5, 8, 14, 99}
-        // //[null, 1, 2, null, null, 5, null, null, 8, .., 14 ....., 99]
-        Integer[] inputArray = new Integer[100]];
+        // 입력 : {1, 2, 5, 8, 14, 99}
+        // [null, 1, 2, null, null, 5, null, null, 8, .., 14 ....., 99]
+        Integer[] inputArray = new Integer[100];
         inputArray[1] = 1;
         inputArray[2] = 2;
         inputArray[5] = 5;
